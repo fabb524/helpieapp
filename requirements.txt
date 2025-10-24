@@ -1,0 +1,17 @@
+# ... (dependencias anteriores) ...
+transformers
+torch
+sentencepiece
+biopython
+mediapipe
+opencv-python
+requests
+detectlanguage
+libretranslatepy
+python-dotenv
+
+# --- Nuevas dependencias para la versión enterprise ---
+chromadb                 # Base de datos vectorial
+sentence-transformers    # Para crear embeddings
+cachetools               # Para el sistema de caché
+pytest                   # Para las pruebas unitarias
